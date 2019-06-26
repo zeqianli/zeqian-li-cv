@@ -1,0 +1,190 @@
+%-------------------------
+% Based on Sourabh Bajaj's template (https://github.com/sb2nov/resume). Credit to him.
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{ #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheadingOneLine}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://zeqianli.github.io/}{\Large Zeqian Li}} &  \href{zeqianl2@illinois.edu}{zeqianl2@illinois.edu}\\
+  \href{https://zeqianli.github.io/}{https://zeqianli.github.io/} &  +1-217-377-7442 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Unversity of Illinois at Urbana-Champaign}{United States}
+      {Graduate student (Physics)}{Aug 2018 -- current}
+    \resumeSubheading
+      {Hong Kong Baptist University}{Hong Kong}
+      {B.S in Physics, minor in Applied Mathematics; GPA: 3.84/4.00}{Sep 2014 -- July 2018}
+  \resumeSubHeadingListEnd
+
+\section{Honors and Rewards}
+\resumeSubHeadingListStart
+\vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{Center for Physics of Living Cells (CPLC) Fellow} & UIUC, 2018-2020 \\
+    \end{tabular*}\vspace{-5pt}
+\vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{HKSAR Government Scholarship} & Hong Kong, 2015-2018 \\
+    \end{tabular*}\vspace{-5pt}
+\vspace{-1pt}\item
+\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+  \textbf{Scholastic Award} & Hong Kong Baptist University, 2018 \\
+\end{tabular*}\vspace{-5pt}
+
+\resumeSubHeadingListEnd
+
+  % Computational capacities of spiking neural networks with critical avalanches, HKBU
+  % Research Assistant; Supervisor: Prof. Changsong Zhou                 Jan 2017 – Apr 2018
+  % 	Developed a spiking neural network model based on Liquid State Machine and E-I balance neuron model to perform computational tasks. The model showed critical behaviors and its role in neural computation was investigated. 
+  % Influence of feedback neuronal connections on signal flow of C. elegans
+  % The Chinese Academy of Sciences, Beijing		                      
+  % Research Assistant; Supervisors: Dr. Yuhan Chen, Prof. Haijun Zhou
+  % 	Studied information flow in C. elegans neural network by analyzing feedback neuronal connections. The study applied a simulated annealing algorithm solving the network minimum feedback arc set (FAS) problem.
+  % Evolvement of cell adjacency relationships in C. elegans cell migration, HKBU
+  % Research Assistant; Supervisors: Prof. Changsong Zhou, Dr. Zhongying Zhao  Jul 2016 – Mar 2017
+  % 	 
+  
+%-----------EXPERIENCE-----------------
+
+%TODO: too dense!!!
+\section{Research Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {University of Illinois at Urbana-Champaign}{United States}
+    {Research Assistant}{Aug 2018 - current}
+    \resumeItemListStart
+      \resumeItem{Center for Physics of Living Cells}
+      { \\Lab rotations with Prof. Jun Song (computational biology), Prof. Karin Dahmen (neural avalanches), and Prof. Seppe Kuehn (closed ecosystem).
+      }
+       
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Hong Kong Baptist University}{Hong Kong}
+      {Research Assistant}{Jul 2016 - Jul 2018}
+      \resumeItemListStart
+        \resumeItem{Computational capacities of spiking neural networks with critical avalanches}
+          {\\\textit{Supervisor: Prof. Changsong Zhou} \hfill \textit{Jan 2017 - Apr 2018 } \\
+          We developed a spiking neural network model to perform computational tasks under supervision. The model, inspired by Liquid State Machine and excitation-inhibition balanced neurons, showed critical behaviors. We studied roles of criticality in neural computation.}
+        \resumeItem{Cell adjacency relationships in C. elegans cell migration}
+          {\\\textit{Supervisors: Prof. Changsong Zhou, Prof. Zhongying Zhao} \hfill \textit{Jul 2016 – Mar 2017} \\
+          We studied C. elegans’ early embryonic development by investigating cell adjacency relationships. We showed that cell contacts were deterministic across wild-type individuals.}
+      \resumeItemListEnd
+
+      \resumeSubheading
+        {The Chinese Academy of Sciences}{Beijing, China}
+        {Research Assistant}{Jun 2017 – Sep 2017}
+        \resumeItemListStart
+          \resumeItem{Feedback connections' role on C. elegans neural signal flow}
+          {\\\textit{Supervisors: Dr. Yuhan Chen, Prof. Haijun Zhou, Prof. Changsong Zhou} \hfill \textit{Jun 2017 - Sep 2017 } \\
+          We studied C. elegans neural information flow by identifying feedback neuronal connections. We applied a novel simulated annealing algorithm on the network minimum feedback arc set (FAS) problem. }
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------TEACHING-----------------
+\section{Teaching Experience}
+\resumeSubHeadingListStart
+  \resumeSubItem{Hong Kong Baptist University}
+  {Two semesters of discussion sections of introductory physics courses.}
+\resumeSubHeadingListEnd
+
+%----------OTHER ACTIVITIES-----------
+\section{OTHER ACTIVITIES}
+\resumeSubHeadingListStart
+  \resumeSubheadingOneLine{The Abdus Salam International Center for Theoretical Physics (ICTP)}{Triest, Italy}
+  \resumeItemListStart
+  \resumeItem{Spring College on the Physics of Complex Systems}
+  {\hfill \textit{Feb 2018 - Mar 2018}\\Took five graduate courses (grade: E (excellent)): Nonequilibrium Behavior of Quantum Statistical Systems (Maurizio Fagotti), Statistics of Extremes in Correlated Systems (Gregory Schehr), Hierarchical Inference (C. Mathys), Reinforcement Learning (Antonio Celani), Polymer Physics of Chromosome Folding (Angelo Rosa, Mario Nicodemi)}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming}
+ \resumeSubHeadingListStart
+   \resumeSubItem{}{Python, Java, C/C++, Matlab}
+   \resumeSubItem{}{LaTeX, beamer, tikz}
+ \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
