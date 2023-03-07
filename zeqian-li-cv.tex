@@ -47,6 +47,14 @@
   }
 }
 
+% \newcommand{\resumeSubheading}[4]{
+%   \vspace{-1pt}\item
+%     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+%       \textbf{#1} & #2 \\
+%       \textit{\small#3} & \textit{\small #4} \\
+%     \end{tabular*}\vspace{-5pt}
+% }
+
 \newcommand{\resumeSubheading}[4]{
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -79,80 +87,77 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{https://zeqianli.github.io/}{\Large Zeqian Li}} &  zeqianli@uchicago.edu \\
+  \textbf{\href{https://zeqianli.me}{\Large Zeqian Li}} &  zeqianli.chicago@gmail.com \\ 
+ \href{https://zeqianli.me}{https://zeqianli.me/} & 
 \end{tabular*}
-
+\vspace{-10pt}
 
 %-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-    {University of Chicago}{United States}
-    {Research assistant, Center for Physics of Evolving Systems }{Aug 2020 -- current}
+    {University of Chicago}{Chicago, IL}
+    {Research Assistant (Seppe Kuehn lab)}{Aug 2020 -- Aug 2023 (expected)}
+
+    \resumeItemListStart
+
+      \resumeItem{Machine learning predicts microbial metabolic traits from genomes:}
+      {We studied the essential evolutionary determinants of microbial carbon metabolism. We showed that phylogeny strongly predicted microbial carbon utilization and large datasets would enable machine learning models to make mechanistic predictions. 
+      }
+
+      \resumeItem{Multi-omics patterns in the Yellowstone hot spring microbial mats:} 
+      {Using metagenome, metatranscriptome and single-cell amplified genome data, we showed that genome organization in the Yellowstone microbial mats is constrained by co-expression and is connected to extensive recombination.}
+
+      \resumeItem{Other Kuehn Lab projects:}
+      {An innovative way to quantify microbial respiration and photosynthesis (de Jesus Astacio et al, PNAS 2021), predicting media buffering capacity (Gopalakrishnappa et al, in preparation), and evolutionary structures of the denitrification pathway (Crocker et al, in preparation).
+      }
+      \vspace{-5pt}
+
+    \resumeItemListEnd
+    \vspace{1mm}
     \resumeSubheading
-      {University of Illinois at Urbana-Champaign}{United States}
-      {Ph.D in Physics candidate}{Aug 2018 -- current}
+      {University of Illinois at Urbana-Champaign}{Champaign, IL}
+      {Ph.D in Physics candidate}{Aug 2018 -- Aug 2023 (expected)}
     \resumeSubheading
       {Hong Kong Baptist University}{Hong Kong}
       {B.S in Physics (minor in Applied Mathematics)}{Sep 2014 -- July 2018}
+    \vspace{-1pt}
+  
+      I studied various biological systems (reservoir computing, biological neural network, C. elegans) using computational neuroscience, machine learning and statistical physics.
+
+    \vspace{-5pt}
+       
   \resumeSubHeadingListEnd
-
-
-
-  % Computational capacities of spiking neural networks with critical avalanches, HKBU
-  % Research Assistant; Supervisor: Prof. Changsong Zhou                 Jan 2017 – Apr 2018
-  % 	Developed a spiking neural network model based on Liquid State Machine and E-I balance neuron model to perform computational tasks. The model showed critical behaviors and its role in neural computation was investigated. 
-  % Influence of feedback neuronal connections on signal flow of C. elegans
-  % The Chinese Academy of Sciences, Beijing		                      
-  % Research Assistant; Supervisors: Dr. Yuhan Chen, Prof. Haijun Zhou
-  % 	Studied information flow in C. elegans neural network by analyzing feedback neuronal connections. The study applied a simulated annealing algorithm solving the network minimum feedback arc set (FAS) problem.
-  % Evolvement of cell adjacency relationships in C. elegans cell migration, HKBU
-  % Research Assistant; Supervisors: Prof. Changsong Zhou, Dr. Zhongying Zhao  Jul 2016 – Mar 2017
-  % 	 
   
 %-----------EXPERIENCE-----------------
-%-----------Publications-----------------
-\section{Publications}
-\resumeSubHeadingListStart
-  \resumeSubheadingOneLine{Closed microbial communities self-organize to persistently cycle carbon}{ \\
-  Luis Miguel de Jesús Astacio$^*$, Kaumudi H. Prabhakara$^*$, \textbf{Zeqian Li}, Harry Mickalide, Seppe Kuehn\\
-  \textit{Accepted, PNAS, 2021.}} 
-\resumeSubHeadingListEnd
+%-----------Publications----------------
 
-%TODO: too dense!!!
-\section{Research Experience}
+\section{Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
-    {University of Chicago}{United States}
-    {Supervisor: Seppe Kuehn}{Aug 2019 - current}
-    \resumeItemListStart
-      \resumeItem{Yellowstone hot spring microbial mats:} 
-      {I am studying the model system Yellowstone hot spring microbial mats using a multi-omics dataset (metagenome, metatranscriptome and single-cell sequencing). Using pangenomics and custom omics tools, I am studying how environments shape microbial community structure and functions. 
-      }
-
-      \resumeItem{Evolution of microbial metabolism:}
-      {In collaboratioin with Ahmed Selim, we are studying what are essential evolutionary determinants of microbial carbon metabolism using both experiments and computational tools (flux-balance analysis).
-      }
-
-      \resumeItem{Pathway splitting in denitrification:}
-      {I studied statistical structure of the denitrification pathway in microbial communites and how it was shaped by environments. We hypothesized that environmental pH is an essential determinant. With Kyle Krocker and Karna Gowda, we are performing experiments to test the hypothesis. 
-      }
-
-      \resumeItem{Closed microbial communities:}
-      {I formulated how pressure change reflects microbial respiration and photosythesis, a crucial part in our closed microbial communities project (de Jesus Astacio et al., \textit{PNAS} 2021). I also helped setting up experimental instruments. 
-      }
-    %   \resumeItem{Center for Physics of Living Cells (CPLC) lab rotations}
-    %   {\hfill \textit{Aug 2018 - Jul 2019 } \\   }
-       
+      {Upward Farms}{Brooklyn, NY}
+      {Microbial Research Associate }{May 2022 - Aug 2022}
+        \resumeItemListStart
+      \resumeItem{Improve hydroponic crop yields through microbial transplanting:}{I led a research project on microbial association with hydroponic plants. Using 16S sequencing, we showed that microbial composition strongly correlated with plant growth. We identified potential growth-promoting microbes through statistical modeling.}
+        \resumeItem{Two production-level software prototypes:}{A Snakemake pipeline to streamline NGS sequencing data analysis and a web-based R\&D experiment management portal. Both will be incorporated into production.}
+        \resumeItem{Other wet lab experiments:}{Nanopore sequencing, crop phenotyping, and sample collection.}
     \resumeItemListEnd
-
+    
     \resumeSubheading
-      {Hong Kong Baptist University}{Hong Kong}
-      {Supervisor: Changsong Zhou}{Jul 2016 - Jul 2018}
-      \vspace{1mm}
+      {The Abdus Salam International Centre for Theoretical Physics}{Trieste, Italy}
+      {Spring College on the Physics of Complex Systems}{Mar 2018}
+    \vspace{-2pt}
   
-
-      I studied various biological systems (C. elegans development, C. elegans neural systems, biological neural networks) using theoretical and computational tools stem from statistical physics.
+    Completed five graduate courses with grade E (Excellent) in statistical physics and reinforcement learning. 
+    \vspace{-5pt}
+    
+    % \vspace{-1pt}\item
+    % \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}}
+    %   {\textbf{Teaching assistant}: Introductory physics courses in college.}  \\
+    % \end{tabular*}\vspace{-5pt}
+    
+    
+    %\\ Took five graduate courses with grade E (excellent).}
     %   \resumeItemListStart
     %     \resumeItem{Computational capacities of spiking neural networks with critical avalanches}{}
     %       % {\\
@@ -175,7 +180,19 @@
   
 % \resumeSubHeadingListEnd
 
-\section{Honors and Rewards}
+
+\section{Publications}
+\resumeSubHeadingListStart
+    \item \textbf{Zeqian Li}, Ahmed Selim, Seppe Kuehn. ``Predict microbial metabolic traits from genomes.'' \\ \textit{In preparation} (2023).
+    \item Chandana Gopalakrishnappa, \textbf{Zeqian Li}, Seppe Kuehn. ``Environmental modulators of algae-bacteria interactions at scale.'' \textit{In preparation} (2023).
+    \item Luis Miguel de Jesús Astacio$^*$, Kaumudi H. Prabhakara$^*$, \textbf{Zeqian Li}, Harry Mickalide, Seppe Kuehn. ``Closed microbial communities self-organize to persistently cycle carbon.''  \textit{Proceedings of the National Academy of Sciences} 118, no. 45 (2021): e2013564118. 
+
+  % \resumeSubheadingOneLine{Co-expression constrains genome organization in an extensively recombined microbial population}{ \\
+  % \textit{Conference talk, American Physical Society March Meeting, March 2022}} 
+\resumeSubHeadingListEnd
+
+
+\section{Awards and honors}
 \resumeSubHeadingListStart
 \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -185,31 +202,21 @@
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{HKSAR Government Scholarship} & Hong Kong, 2015-2018 \\
     \end{tabular*}\vspace{-5pt}
-\vspace{-1pt}\item
-\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-  \textbf{Scholastic Award} & Hong Kong Baptist University, 2018 \\
-\end{tabular*}\vspace{-5pt}
+% \vspace{-1pt}\item
+% \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+%   \textbf{Scholastic Award} & Hong Kong Baptist University, 2018 \\
+% \end{tabular*}\vspace{-5pt}
 
 \resumeSubHeadingListEnd
 
-%----------OTHER ACTIVITIES-----------
-\section{Others}
-\resumeSubHeadingListStart
-  \resumeSubheadingOneLine{ICTP Spring College on the Physics of Complex Systems (2018)}{ICTP, Triest, Italy \\ Took five graduate courses with grade E (excellent).}
-  \resumeSubheadingOneLine{Teaching experience}{\\ Teaching assistant for introductory physics courses in college and graduate school.}
-  % \resumeItemListStart
-  % \resumeItem{Spring College on the Physics of Complex Systems}
-  % {\hfill \textit{Feb 2018 - Mar 2018}\\Took five graduate courses (grade: E (excellent)): Nonequilibrium behavior of quantum statistical systems (Maurizio Fagotti), Statistics of extremes in correlated systems (Gregory Schehr), Hierarchical inference (C. Mathys), Reinforcement learning (Antonio Celani), Polymer physics of chromosome folding (Angelo Rosa, Mario Nicodemi)}
-  % \resumeItemListEnd
-  
-\resumeSubHeadingListEnd
 
 %--------PROGRAMMING SKILLS------------
 \section{Skills}
  \resumeSubHeadingListStart
-  \resumeSubItem{Experiments:}{common microbiology lab operation and assays.}
-  \resumeSubItem{Bioinformatics:}{common omics tools, 16s data analysis, metagenome data analysis.}
-  \resumeSubItem{Programming:}{Python, Java, Javascript, C/C++, Matlab, Bash, \LaTeX.}
+   \resumeSubItem{Computation:}{Machine learning, bioinformatics (metagenomics, 16S, transcriptomics, single-cell),  deep learning.}
+   \resumeSubItem{Experiments:}{NGS sequencing, nanopore sequencing, microbiology wet lab.}
+   \resumeSubItem{Software:}{Python, Snakemake, MongoDB, Git, Bash, Linux, Javascript, Java, \LaTeX.}
+  
  \resumeSubHeadingListEnd
 
 
